@@ -82,3 +82,4 @@ jobs:
           file: image/Dockerfile
           tags: |
             rpersee/semantic-web-notebook:${{steps.getrefs.outputs.sha12}}, rpersee/semantic-web-notebook:latest
+          push: true
